@@ -43,3 +43,14 @@ for (var i = 0; i < 10; i++) {
 console.log(foo2[0]()); // 0
 console.log(foo2[1]()); // 1
 console.log(foo2[2]()); // 2
+
+
+(
+	function f(n) {
+		return (
+			(n > 1)
+				? n * f(n - 1)
+				: n
+		);
+	}
+)(4);
