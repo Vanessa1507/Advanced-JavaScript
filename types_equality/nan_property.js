@@ -12,4 +12,4 @@
 0 === ''; //false
 0 === '0'; //false
 
-false == 'false'
+false == 'false'; //false
